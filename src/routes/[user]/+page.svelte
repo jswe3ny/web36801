@@ -48,8 +48,8 @@
  
    <!-- Open the modal using ID.showModal() method -->
    <div class="max-w-2xl mx-auto">
-    <button class="btn btn-success btn-outline mt-4 " onclick="my_modal_5.showModal()">New Buy</button>
-    <dialog id="my_modal_5" class="modal sm:modal-middle">
+    <!-- <button class="btn btn-success btn-outline mt-4 " onclick="my_modal_5.showModal()">New Buy</button>
+    <dialog id="my_modal_5" class="modal sm:modal-middle"> -->
         
       <form method="post" use:enhance class=" modal-box flex flex-col p-6 gap-3">
         <form method="dialog" class="ml-auto">
@@ -73,7 +73,7 @@
         
     
       
-    </dialog>
+    <!-- </dialog> -->
    </div>
   
    
