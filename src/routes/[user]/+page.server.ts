@@ -94,7 +94,6 @@ export const load: PageServerLoad = async ({ locals }) => {
 		
 
 		let locationInArray= displayData.findIndex(obj => obj?.ticker == currentTicker)
-		// console.log(locationInArray)
 
 		if(locationInArray == -1){
 			// console.log("pushing " + currentTicker)
